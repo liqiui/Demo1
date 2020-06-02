@@ -47,6 +47,7 @@ class SimpleFragment : Fragment() {
                 arguments = Bundle().apply {
                     putString(ARG_TEXT, text)
                 }
+                retainInstance = true
             }
     }
 }
